@@ -1,9 +1,1 @@
-# Enhanced Initial Load Animations Task
-
-## Steps:
-- [x] 1. Analyze files (done)
-- [x] 2. Create edit plan & confirm (done)
-- [x] 3. Edit css/style.css with cooler animations (body fadeScaleIn, nav slideDownNav, header profile bounceIn+glow, h1 slideScaleShimmer+shimmerLine, p fadeGlowUp, sections bounceRotateUp, staggered delays)
-- [x] 4. Update TODO.md after edits
-- [x] 5. Test in browser & complete
-
+# TODO: Update Contact Section to TikTok\n\n## Steps:\n1. [x] Create this TODO.md (initial)\n2. [x] Edit index.html: Replace phone line with TikTok @garasi_putra\n3. [x] Update TODO.md: Mark steps complete\n4. [x] Verify change and complete task\n\n**Status**: Completed! Contact section updated successfully.\n\nContact now shows:\n📧 Email: kaselaputra12@gmail.com\n📱 TikTok: @garasi_putra\n📸 Instagram: @nyxt_a
