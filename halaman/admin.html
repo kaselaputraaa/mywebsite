@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6aa84f">
+  <title>Admin Dashboard - Kelola Komentar</title>
+
+<link rel="stylesheet" href="../css/adminstyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<div id="loginBox" class="login-box">
+  <h2>Admin Login</h2>
+  <input type="password" id="password" placeholder="Masukkan password">
+  <button onclick="login()">Masuk</button>
+  <p id="error"></p>
+</div>
+
+<div id="adminPanel" style="display:none;">
+  <div class="admin-container">
+  <a href="../index.html" class="back-btn">
+    <i class="fas fa-arrow-left"></i>
+    <span>Kembali ke Home</span>
+  </a>
+    <h1>Admin Panel Komentar</h1>
+
+    <div class="toolbar">
+      <div class="search-wrapper">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" id="search" placeholder="Cari nama atau komentar...">
+      </div>
+      <button onclick="loadKomentar()" class="btn-refresh"><i class="fas fa-sync-alt"></i></button>
+      <button onclick="toggleDarkMode()" class="btn-dark" id="darkToggle"><i class="fas fa-moon"></i></button>
+    </div>
+
+    <div id="adminList" class="comment-grid"></div>
+  </div>
+</div>
+
+<script src="../js/admin.js"></script>
+
+</body>
+</html>
